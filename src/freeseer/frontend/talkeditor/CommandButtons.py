@@ -61,7 +61,7 @@ class CommandButtons(QWidget):
         self.searchLineEdit = QLineEdit()
         self.searchLineEdit.setPlaceholderText("Search...")
         self.searchIcon = QIcon.fromTheme("edit-find")
-        self.searchButton = QPushButton('Search')
+        self.searchButton = QPushButton('BIGG Search')
         self.searchButton.setIcon(self.searchIcon)
         self.layout.addWidget(self.importButton)
         self.layout.addWidget(self.exportButton)
